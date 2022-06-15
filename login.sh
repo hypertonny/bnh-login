@@ -4,7 +4,7 @@ bash banner.sh
 echo
 
 read -p $'\e[1;32m  Enter \033[33mUsername \033[37mfor \033[32mSignUp :\e[0m ' username                
-read -p $'\e[1;32m  Enter \033[33mPassword \033[37mfor \033[32mSignUp :\e[0m ' password 
+read -p $'\e[1;32m  Enter \033[33mPassword (only number) \033[37mfor \033[32mSignUp :\e[0m ' password 
 echo
 echo
 read -p $'\033[1m\033[32m   Your \033[0mNick \033[38;5;209mName \033[31m  : \033[33m\033[1m ' names
@@ -50,7 +50,7 @@ echo -e "\033[1m\033[33m
 ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
 "
-echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33mM4ND33P \e[1m\e[32m░▒▓▇▆▅▄▃▂"
+echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33mBNH YT \e[1m\e[32m░▒▓▇▆▅▄▃▂"
 cd /sdcard
 python network.py
 echo -e "   \033[1m\033[33m]\033[31m─────────────────────────────────────\033[33m["
